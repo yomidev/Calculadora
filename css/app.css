@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    background: #1D2B64;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+button{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#calculadora{
+    padding: 25px;
+    width: 400px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 5px 20px 20px 5px #000;
+}
+
+.display-text{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.display-text > input{
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: end;
+    color: #000;
+    font-size: 30px;
+    background-color: #fff;
+}
+
+.buttons-prd{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.btn-red{
+    width: 35%;
+    background-color: #FF5733;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+.btn-del{
+    width: 20%;
+    background-color: #67686D;
+    border: none;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.buttons-cl{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tgr-fnc{
+    width: 20%;
+    background-color: #67686D;
+    border: none;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.numbers{
+    width: 15%; 
+    border: none;
+    border-radius: 5px;
+}
+
+.symbols{
+    width: 15%;
+    background-color: #67686D;
+    border: none;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.buttons-down{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.zero{
+    width: 35%;
+    border: none;
+    border-radius: 5px;
+}
